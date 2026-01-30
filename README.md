@@ -1,11 +1,19 @@
 # Magento 2 Multiple Flat Rates Shipping extension
 
-Native Magento 2 only supports **one flat rate shipping** which can lead to difficulty for stores in defining the best price for delivering products to customers in different countries.  
+> **Fork by ROLLPIX** - Extended from 5 to 10 flat rate shipping methods. Original module by [Mageplaza](https://www.mageplaza.com/).
+
+Native Magento 2 only supports **one flat rate shipping** which can lead to difficulty for stores in defining the best price for delivering products to customers in different countries.
 
 [Magento 2 Multiple flat rate shipping](https://www.mageplaza.com/magento-2-multi-flat-rates/) is a must have for many online stores, especially international brands which deliver their products worldwide. Offering buyers different flat rates to select makes shopping easier and convenient for customers. Besides, this also helps stores manage shipping methods better.
 
 [![Latest Stable Version](https://poser.pugx.org/mageplaza/module-multi-flat-rates/v/stable)](https://packagist.org/packages/mageplaza/module-multi-flat-rates)
 [![Total Downloads](https://poser.pugx.org/mageplaza/module-multi-flat-rates/downloads)](https://packagist.org/packages/mageplaza/module-multi-flat-rates)
+
+## ROLLPIX Fork Changes
+
+- **Extended to 10 flat rate shipping methods** (originally 5)
+- Added Spanish (es_AR) translations
+- Full backward compatibility with existing configurations
 
 
 ## 1. Flat Rates Shipping Documentation
@@ -42,9 +50,9 @@ php bin/magento setup:static-content:deploy
 ```
 ## 4. Multiple Flat Rates Shipping features
 
-### 5 multiple flat rate shipping
+### 10 multiple flat rate shipping
 
-**Magento 2 Multi flat rate shipping extension** allows store admins to add up to 5 other shipping rates. Admins are free to give a shipping flat rate a name and/or a title to help buyers distinguish it with others on Cart page and Checkout page. 
+**Magento 2 Multi flat rate shipping extension** allows store admins to add up to 10 other shipping rates. Admins are free to give a shipping flat rate a name and/or a title to help buyers distinguish it with others on Cart page and Checkout page. 
 
 Each flat rate can be turned on/off easily on the backend. A set of configuration options for price, sort order, applicable countries, and error message are also ready to be selected.
 
@@ -69,7 +77,7 @@ Buyers who are not in applicable countries will not be allowed to select that sh
 
 ## 5. How to configure multiple flat rate shipping on Magento 2
 
-From your Magento admin panel, follow this route: `Stores > Settings > Configuration > Sales > Shipping methods`. Then, click on `Flat rate #1 - Flat rate #5` to configure these 5 shipping rates.
+From your Magento admin panel, follow this route: `Stores > Settings > Configuration > Sales > Shipping methods`. Then, click on `Flat rate #1 - Flat rate #10` to configure these 10 shipping rates.
 
 ![Magento 2 Multiple Flat Rates Shipping](https://i.imgur.com/yiEzfE6.png)
 
@@ -100,7 +108,7 @@ From your Magento admin panel, follow this route: `Stores > Settings > Configura
 - `Display Error Message`: Enter an error message which is displayed to buyers when the rate is not available. If you leave this box blank, the default message will be displayed: `Sorry, but we can’t deliver to the destination country with this shipping module`. This error message is displayed only when `Show Method if Not Applicable` = Yes
 - `Show Method if Not Applicable`: Select Yes to display all shipping methods even when they do not belong to any applicable countries.
 
-Similarly, admins can add up to 5 shipping methods and configure them for their online store.
+Similarly, admins can add up to 10 shipping methods and configure them for their online store.
 
 ![Mageplaza Multiple Flat Rates Shipping](https://i.imgur.com/JvvkKHF.png)
 

@@ -73,6 +73,56 @@
                 <specificerrmsg>This shipping method is not available. To use this shipping method, please contact us.</specificerrmsg>
                 <sallowspecific>0</sallowspecific>
             </flatratefive>
+            <flatratesix>
+                <model>Mageplaza\Multiflatrates\Model\Carrier\Flatratesix</model>
+                <active>0</active>
+                <title>Flat Rate #6</title>
+                <name>Flat Rate #6</name>
+                <price>0.00</price>
+                <showmethod>0</showmethod>
+                <specificerrmsg>This shipping method is not available. To use this shipping method, please contact us.</specificerrmsg>
+                <sallowspecific>0</sallowspecific>
+            </flatratesix>
+            <flatrateseven>
+                <model>Mageplaza\Multiflatrates\Model\Carrier\Flatrateseven</model>
+                <active>0</active>
+                <title>Flat Rate #7</title>
+                <name>Flat Rate #7</name>
+                <price>0.00</price>
+                <showmethod>0</showmethod>
+                <specificerrmsg>This shipping method is not available. To use this shipping method, please contact us.</specificerrmsg>
+                <sallowspecific>0</sallowspecific>
+            </flatrateseven>
+            <flatrateeight>
+                <model>Mageplaza\Multiflatrates\Model\Carrier\Flatrateeight</model>
+                <active>0</active>
+                <title>Flat Rate #8</title>
+                <name>Flat Rate #8</name>
+                <price>0.00</price>
+                <showmethod>0</showmethod>
+                <specificerrmsg>This shipping method is not available. To use this shipping method, please contact us.</specificerrmsg>
+                <sallowspecific>0</sallowspecific>
+            </flatrateeight>
+            <flatratenine>
+                <model>Mageplaza\Multiflatrates\Model\Carrier\Flatratenine</model>
+                <active>0</active>
+                <title>Flat Rate #9</title>
+                <name>Flat Rate #9</name>
+                <price>0.00</price>
+                <showmethod>0</showmethod>
+                <specificerrmsg>This shipping method is not available. To use this shipping method, please contact us.</specificerrmsg>
+                <sallowspecific>0</sallowspecific>
+            </flatratenine>
+            <flatrateten>
+                <model>Mageplaza\Multiflatrates\Model\Carrier\Flatrateten</model>
+                <active>0</active>
+                <title>Flat Rate #10</title>
+                <name>Flat Rate #10</name>
+                <price>0.00</price>
+                <showmethod>0</showmethod>
+                <specificerrmsg>This shipping method is not available. To use this shipping method, please contact us.</specificerrmsg>
+                <sallowspecific>0</sallowspecific>
+            </flatrateten>
         </carriers>
     </default>
 </config>
