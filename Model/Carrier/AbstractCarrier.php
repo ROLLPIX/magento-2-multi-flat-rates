@@ -75,7 +75,7 @@ class AbstractCarrier extends \Magento\Shipping\Model\Carrier\AbstractCarrier im
     protected $quote;
 
     /**
-     *  Magento\Framework\App\State
+     * @var State
      */
     protected $state;
 
@@ -154,9 +154,9 @@ class AbstractCarrier extends \Magento\Shipping\Model\Carrier\AbstractCarrier im
     /**
      * getAllowedMethods
      *
-     * @return  array
+     * @return array
      */
-    public function getAllowedMethods()
+    public function getAllowedMethods(): array
     {
         return ['flatrate' => $this->getConfigData('name')];
     }
